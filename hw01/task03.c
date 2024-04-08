@@ -1,24 +1,12 @@
-// 3. Вывести на экран рисунок из букв
-
 #include <stdio.h>
 
-int main(int argc, char **argv)
+int main(void)
 {
-
-/*
-    *
-   ***
-  *****
- *******
-  HH HH
-  ZZZZZ
-*/
-
-    printf("    *\n");
-    printf("   ***\n");
-    printf("  *****\n");
-    printf(" *******\n");
-    printf("  HH HH  \n");
-    printf("  ZZZZZ   \n");
+    printf("   *   \n");
+    printf("  ***  \n");
+    printf(" ***** \n");
+    printf("*******\n");
+    printf(" HHOHH \n");
+    printf(" ZZZZZ \n");
     return 0;
 }
